@@ -25,6 +25,7 @@ export default function Experience() {
           <p>My Journey</p>
           <h2>Experience</h2>
         </div>
+        
 
         <div className="timeline">
           {experiences.map((experience, index) => (
