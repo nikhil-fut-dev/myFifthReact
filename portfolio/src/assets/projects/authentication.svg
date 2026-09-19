@@ -1,0 +1,96 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#020617"/>
+
+  <circle cx="180" cy="120" r="180" fill="#312e81" opacity="0.25"/>
+  <circle cx="1050" cy="600" r="250" fill="#4f46e5" opacity="0.12"/>
+
+  <rect x="390" y="55" width="420" height="590" rx="25"
+        fill="#0f172a" stroke="#1e293b"/>
+
+  <text x="515" y="120"
+        fill="#818cf8"
+        font-size="28"
+        font-family="Arial"
+        font-weight="bold">
+    DevAuth
+  </text>
+
+  <text x="480" y="170"
+        fill="white"
+        font-size="24"
+        font-family="Arial"
+        font-weight="bold">
+    Welcome Back
+  </text>
+
+  <text x="470" y="200"
+        fill="#64748b"
+        font-size="13"
+        font-family="Arial">
+    Login to continue to your account
+  </text>
+
+  <text x="440" y="255"
+        fill="#cbd5e1"
+        font-size="13"
+        font-family="Arial">
+    Email Address
+  </text>
+
+  <rect x="440" y="270" width="320" height="48"
+        rx="8"
+        fill="#020617"
+        stroke="#334155"/>
+
+  <text x="460" y="300"
+        fill="#64748b"
+        font-size="13"
+        font-family="Arial">
+    you@example.com
+  </text>
+
+  <text x="440" y="355"
+        fill="#cbd5e1"
+        font-size="13"
+        font-family="Arial">
+    Password
+  </text>
+
+  <rect x="440" y="370" width="320" height="48"
+        rx="8"
+        fill="#020617"
+        stroke="#334155"/>
+
+  <text x="460" y="400"
+        fill="#64748b"
+        font-size="13"
+        font-family="Arial">
+    ••••••••••••
+  </text>
+
+  <rect x="440" y="450" width="320" height="50"
+        rx="8"
+        fill="#6366f1"/>
+
+  <text x="575" y="482"
+        fill="white"
+        font-size="14"
+        font-family="Arial"
+        font-weight="bold">
+    Login
+  </text>
+
+  <text x="500" y="545"
+        fill="#64748b"
+        font-size="13"
+        font-family="Arial">
+    Don't have an account?
+  </text>
+
+  <text x="645" y="545"
+        fill="#818cf8"
+        font-size="13"
+        font-family="Arial">
+    Register
+  </text>
+</svg>

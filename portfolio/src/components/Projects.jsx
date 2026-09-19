@@ -1,11 +1,15 @@
 import { FiGithub, FiExternalLink, FiArrowUpRight } from "react-icons/fi";
+import expenseTracker from "../assets/projects/expense-tracker.svg";
+import authentication from "../assets/projects/authentication.svg";
+import portfolio from "../assets/projects/portfolio.svg";
 
 const projects = [
   {
     number: "01",
     title: "Expense Tracker",
     description:
-      "A full-stack expense management application where users can manage income, expenses, budgets and view financial analytics.",
+      "A full-stack expense management application where users can manage income, expenses, budgets and financial analytics.",
+    image: expenseTracker,
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/",
     demo: "#",
@@ -16,18 +20,20 @@ const projects = [
     number: "02",
     title: "Authentication App",
     description:
-      "A secure authentication application with registration, login, protected routes, user profile and session management.",
+      "A secure authentication application with registration, login, protected routes and user profile management.",
+    image: authentication,
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/",
     demo: "#",
-    type: "Web Application",
+    type: "Web App",
   },
 
   {
     number: "03",
     title: "Portfolio Website",
     description:
-      "A modern responsive portfolio website designed to showcase skills, projects, experience and contact information.",
+      "A modern responsive portfolio website built with React and Vite to showcase skills, projects and experience.",
+    image: portfolio,
     technologies: ["React", "Vite", "JavaScript", "CSS"],
     github: "https://github.com/",
     demo: "#",
@@ -55,19 +61,11 @@ export default function Projects() {
             <article className="project-card" key={project.number}>
               {/* PROJECT PREVIEW */}
               <div className="project-preview">
-                <div className="preview-top">
-                  <span className="project-number">{project.number}</span>
+                <img src={project.image} alt={`${project.title} preview`} />
 
-                  <span className="project-type">{project.type}</span>
+                <div className="preview-overlay">
+                  <span>{project.type}</span>
                 </div>
-
-                <div className="preview-code">
-                  <span>&lt;</span>
-                  <strong>Project</strong>
-                  <span>/&gt;</span>
-                </div>
-
-                <div className="preview-circle"></div>
               </div>
 
               {/* PROJECT CONTENT */}

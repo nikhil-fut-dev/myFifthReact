@@ -1,0 +1,145 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#020617"/>
+
+  <!-- Navbar -->
+  <rect x="0" y="0" width="1200" height="75" fill="#0f172a"/>
+
+  <text x="50" y="47"
+        fill="#818cf8"
+        font-size="23"
+        font-family="Arial"
+        font-weight="bold">
+    Developer
+  </text>
+
+  <text x="690" y="45" fill="#cbd5e1" font-size="13" font-family="Arial">
+    Home
+  </text>
+
+  <text x="750" y="45" fill="#cbd5e1" font-size="13" font-family="Arial">
+    About
+  </text>
+
+  <text x="815" y="45" fill="#cbd5e1" font-size="13" font-family="Arial">
+    Skills
+  </text>
+
+  <text x="880" y="45" fill="#cbd5e1" font-size="13" font-family="Arial">
+    Projects
+  </text>
+
+  <text x="965" y="45" fill="#cbd5e1" font-size="13" font-family="Arial">
+    Contact
+  </text>
+
+  <!-- Hero -->
+  <text x="90" y="180"
+        fill="#818cf8"
+        font-size="16"
+        font-family="Arial">
+    Hello, I'm
+  </text>
+
+  <text x="90" y="235"
+        fill="white"
+        font-size="46"
+        font-family="Arial"
+        font-weight="bold">
+    Full Stack
+  </text>
+
+  <text x="90" y="290"
+        fill="#818cf8"
+        font-size="46"
+        font-family="Arial"
+        font-weight="bold">
+    Developer
+  </text>
+
+  <text x="90" y="335"
+        fill="#94a3b8"
+        font-size="14"
+        font-family="Arial">
+    Building modern and beautiful web experiences.
+  </text>
+
+  <rect x="90" y="380" width="150" height="45" rx="8" fill="#6366f1"/>
+
+  <text x="120" y="408"
+        fill="white"
+        font-size="13"
+        font-family="Arial"
+        font-weight="bold">
+    View Projects
+  </text>
+
+  <!-- Profile -->
+  <circle cx="920" cy="285" r="145"
+          fill="#111827"
+          stroke="#4f46e5"
+          stroke-width="3"/>
+
+  <circle cx="920" cy="250" r="48" fill="#334155"/>
+
+  <path d="M820 385 Q920 300 1020 385"
+        fill="#334155"/>
+
+  <text x="850" y="480"
+        fill="#64748b"
+        font-size="12"
+        font-family="Arial">
+    Personal Portfolio
+  </text>
+
+  <!-- Bottom Cards -->
+  <rect x="90" y="530" width="290" height="90"
+        rx="12" fill="#0f172a"/>
+
+  <text x="115" y="565"
+        fill="#818cf8"
+        font-size="14"
+        font-family="Arial">
+    React
+  </text>
+
+  <text x="115" y="590"
+        fill="#94a3b8"
+        font-size="12"
+        font-family="Arial">
+    Modern frontend development
+  </text>
+
+  <rect x="405" y="530" width="290" height="90"
+        rx="12" fill="#0f172a"/>
+
+  <text x="430" y="565"
+        fill="#818cf8"
+        font-size="14"
+        font-family="Arial">
+    Node.js
+  </text>
+
+  <text x="430" y="590"
+        fill="#94a3b8"
+        font-size="12"
+        font-family="Arial">
+    Backend & APIs
+  </text>
+
+  <rect x="720" y="530" width="290" height="90"
+        rx="12" fill="#0f172a"/>
+
+  <text x="745" y="565"
+        fill="#818cf8"
+        font-size="14"
+        font-family="Arial">
+    Responsive
+  </text>
+
+  <text x="745" y="590"
+        fill="#94a3b8"
+        font-size="12"
+        font-family="Arial">
+    Mobile friendly interfaces
+  </text>
+</svg>
